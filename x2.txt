@@ -1,75 +1,48 @@
  ======================
+  ChangeLog 10-12-2018
+ ======================
+
+ ======================
   ChangeLog 10-11-2018
  ======================
 
  * bionic
 
-    26cfc47 - [DNM] bionic: hack for pthread mutex bug for old camera blob (27 секунд назад) <LuK1337>
-    bd797cb - linker: Add support for dynamic SHIM libraries (34 минуты назад) <Adrian DC>
+    26cfc47 - [DNM] bionic: hack for pthread mutex bug for old camera blob (24 часа назад) <LuK1337>
+    bd797cb - linker: Add support for dynamic SHIM libraries (25 часов назад) <Adrian DC>
 
  * build/make
 
-    ce6cb7a - build: ota: Support for install tools in /tmp/install (28 секунд назад) <Tom Marshall>
-    71254f3 - edify: bring back SetPermissionsRecursive (30 секунд назад) <Simon Shields>
+    ce6cb7a - build: ota: Support for install tools in /tmp/install (24 часа назад) <Tom Marshall>
+    71254f3 - edify: bring back SetPermissionsRecursive (24 часа назад) <Simon Shields>
 
  * device/leeco/msm8996-common
 
-    3676d13 - msm8996-common: add lepref ToDO: move it to OmniGear (63 минуты назад) <andr68rus>
-    4845209 - Revert "[TEMP] msm8996: volte hax" (2 часа назад) <andr68rus>
-    0967167 - msm8998-common: vendor_prop: derp fix (2 часа назад) <andr68rus>
-    ba5c2de - msm8996-common: overlay: remove los overlays (3 часа назад) <andr68rus>
-    bb17774 - Merge https://github.com/lineage-x2-devs/android_device_leeco_msm8996-common into android-9.0 (3 часа назад) <andr68rus>
-    d90acc4 - msm8996: Switch to autobrightness values from EUI ROM 30s (4 часа назад) <ThEMarD>
-    beda4d4 - msm8996: Revert to default config_proximityCheckTimeout value (4 часа назад) <ThEMarD>
-    8427f0d - msm8996: Set voice call volume steps to 7 (4 часа назад) <rago>
-    3b71cb2 - msm8996: Media volume: from 15 to 25 steps (4 часа назад) <Jean-Michel Trivi>
-    6395ced - msm8996: update gatekeeper and keystore (4 часа назад) <ThEMarD>
-    8e559c9 - msm8996: blobs: add port-bridge (4 часа назад) <ThEMarD>
-    202fac7 - msm8996: Switch to autobrightness values from EUI ROM 30s (7 часов назад) <ThEMarD>
-    2c56150 - msm8996: Revert to default config_proximityCheckTimeout value (7 часов назад) <ThEMarD>
-    7d670b0 - msm8996: Set voice call volume steps to 7 (7 часов назад) <rago>
-    52b10b2 - msm8996: Media volume: from 15 to 25 steps (7 часов назад) <Jean-Michel Trivi>
-    8a409c9 - msm8996: update gatekeeper and keystore (7 часов назад) <ThEMarD>
-    41c2486 - msm8996: blobs: add port-bridge (7 часов назад) <ThEMarD>
-    74524e9 - [TEMP] msm8996: volte hax (7 часов назад) <shivatejapeddi>
-    ee99e0b - msm8996: prop: set VT camera to use HAL3 (7 часов назад) <ThEMarD>
-    adda444 - msm8996: bring back msm_irqbalance (7 часов назад) <ThEMarD>
-    aa4fac7 - msm8996: Advertise Vulkan 1.1 system feature (7 часов назад) <Jesse Hall>
+    3676d13 - msm8996-common: add lepref ToDO: move it to OmniGear (25 часов назад) <andr68rus>
+    4845209 - Revert "[TEMP] msm8996: volte hax" (26 часов назад) <andr68rus>
+    0967167 - msm8998-common: vendor_prop: derp fix (26 часов назад) <andr68rus>
+    ba5c2de - msm8996-common: overlay: remove los overlays (28 часов назад) <andr68rus>
+    bb17774 - Merge https://github.com/lineage-x2-devs/android_device_leeco_msm8996-common into android-9.0 (28 часов назад) <andr68rus>
+    d90acc4 - msm8996: Switch to autobrightness values from EUI ROM 30s (28 часов назад) <ThEMarD>
+    beda4d4 - msm8996: Revert to default config_proximityCheckTimeout value (28 часов назад) <ThEMarD>
+    8427f0d - msm8996: Set voice call volume steps to 7 (28 часов назад) <rago>
+    3b71cb2 - msm8996: Media volume: from 15 to 25 steps (28 часов назад) <Jean-Michel Trivi>
+    6395ced - msm8996: update gatekeeper and keystore (28 часов назад) <ThEMarD>
+    8e559c9 - msm8996: blobs: add port-bridge (28 часов назад) <ThEMarD>
+    202fac7 - msm8996: Switch to autobrightness values from EUI ROM 30s (31 час назад) <ThEMarD>
+    2c56150 - msm8996: Revert to default config_proximityCheckTimeout value (31 час назад) <ThEMarD>
+    7d670b0 - msm8996: Set voice call volume steps to 7 (31 час назад) <rago>
+    52b10b2 - msm8996: Media volume: from 15 to 25 steps (31 час назад) <Jean-Michel Trivi>
+    8a409c9 - msm8996: update gatekeeper and keystore (31 час назад) <ThEMarD>
+    41c2486 - msm8996: blobs: add port-bridge (31 час назад) <ThEMarD>
+    74524e9 - [TEMP] msm8996: volte hax (31 час назад) <shivatejapeddi>
+    ee99e0b - msm8996: prop: set VT camera to use HAL3 (31 час назад) <ThEMarD>
+    adda444 - msm8996: bring back msm_irqbalance (31 час назад) <ThEMarD>
+    aa4fac7 - msm8996: Advertise Vulkan 1.1 system feature (31 час назад) <Jesse Hall>
 
  * device/leeco/x2
 
-    582c789 - x2: overlay: add hw button backlight suppot (4 часа назад) <andr68rus>
-
- * frameworks/av
-
-    ee20c55 - av: camera: catch mad hals that mess up buffer time (4 секунды назад) <maxwen>
-
- * frameworks/base
-
-    d520c56 - Default the network location provider to none (6 секунд назад) <Luca Stefani>
-    a733d5d - combo issue when location reported by providers do not come with extras (12 секунд назад) <Kevin Tang>
-    a5ed62c - NLP Combo feature (17 секунд назад) <Dante Russo>
-    a9f44e2 - Revert "Remove getIntWithSubId in TelephonyManager." (3 часа назад) <jhenrique09>
-    c01bcb1 - Stop invoke initAppOps in Camera default constructor. (3 часа назад) <Daichi Hirono>
-    ca87824 - [1/2] base: power: custom button light (16 часов назад) <maxwen>
-
- * hardware/ril
-
-    0582c65 - libril: network selection fix (40 секунд назад) <faust93>
-
- * kernel/leeco/msm8996
-
-    fe6349a - kcal: Enable by default with kcal_sat = 50 (2 часа назад) <Fedor917>
-    a768617 - msm: mdss: kcal: Add KCAL support for post processing control [v2] (2 часа назад) <savoca>
-    53db275 - Merge https://github.com/lineage-x2-devs/android_kernel_leeco_msm8996 into android-9.0 (3 часа назад) <andr68rus>
-
- * packages/apps/OmniGears
-
-    bca7fa1 - [2/2] OmniGears: custom button light (6 часов назад) <maxwen>
-
- * packages/apps/Settings
-
-    a6ebe81 - Settings: add back ButtonBrightnessSettings fragment (18 часов назад) <andr68rus>
+    582c789 - x2: overlay: add hw button backlight suppot (28 часов назад) <andr68rus>
 
  ======================
   ChangeLog 10-10-2018
@@ -77,27 +50,27 @@
 
  * build/make
 
-    52fa332 - [1/2] core: Change vendor init flag to boolean (2 дня назад) <Stefan Berger>
+    52fa332 - [1/2] core: Change vendor init flag to boolean (3 дня назад) <Stefan Berger>
 
  * build/soong
 
-    e26f8ea - [2/2] soong: Change vendor init flag to boolean (2 дня назад) <Stefan Berger>
+    e26f8ea - [2/2] soong: Change vendor init flag to boolean (3 дня назад) <Stefan Berger>
 
  * device/leeco/msm8996-common
 
-    7c2cdcf - msm8996-common: power: update from CAF LA.UM.7.5.r1-02500-8x96.0 (2 дня назад) <andr68rus>
-    80211d0 - msm8996-common: temp. disable ant packages (2 дня назад) <andr68rus>
-    e983c35 - msm8996-common: add display flags (2 дня назад) <andr68rus>
-    fa626a0 - msm8996-common: fix derp ... (2 дня назад) <andr68rus>
-    cc29ec9 - msm8996-common: init: fix ril start (remove vendor. and add ril-daemon, because it disabled in omni by default) (2 дня назад) <andr68rus>
-    9295915 - msm8996-common: fix manifest: remove power double (2 дня назад) <andr68rus>
-    17c0edb - msm8996-common: remove doze (2 дня назад) <andr68rus>
-    95aa152 - msm8996-common: camera: fix includes (2 дня назад) <andr68rus>
-    844a744 - msm8996-common: permissions: add android.permission.MANAGE_USERS for com.qualcomm.location (2 дня назад) <andr68rus>
-    d9582b6 - msm8996-common: import basic USB hal (2 дня назад) <andr68rus>
-    6af38f0 - msm8996-common: import vr from CAF LA.UM.7.5.r1-02500-8x96.0 (2 дня назад) <andr68rus>
-    98e4cab - msm8998-common: import termal from CAF LA.UM.7.5.r1-02500-8x96.0 (2 дня назад) <andr68rus>
-    6613967 - msm8996-common: init: missing namespaces (2 дня назад) <andr68rus>
+    7c2cdcf - msm8996-common: power: update from CAF LA.UM.7.5.r1-02500-8x96.0 (3 дня назад) <andr68rus>
+    80211d0 - msm8996-common: temp. disable ant packages (3 дня назад) <andr68rus>
+    e983c35 - msm8996-common: add display flags (3 дня назад) <andr68rus>
+    fa626a0 - msm8996-common: fix derp ... (3 дня назад) <andr68rus>
+    cc29ec9 - msm8996-common: init: fix ril start (remove vendor. and add ril-daemon, because it disabled in omni by default) (3 дня назад) <andr68rus>
+    9295915 - msm8996-common: fix manifest: remove power double (3 дня назад) <andr68rus>
+    17c0edb - msm8996-common: remove doze (3 дня назад) <andr68rus>
+    95aa152 - msm8996-common: camera: fix includes (3 дня назад) <andr68rus>
+    844a744 - msm8996-common: permissions: add android.permission.MANAGE_USERS for com.qualcomm.location (3 дня назад) <andr68rus>
+    d9582b6 - msm8996-common: import basic USB hal (3 дня назад) <andr68rus>
+    6af38f0 - msm8996-common: import vr from CAF LA.UM.7.5.r1-02500-8x96.0 (3 дня назад) <andr68rus>
+    98e4cab - msm8998-common: import termal from CAF LA.UM.7.5.r1-02500-8x96.0 (3 дня назад) <andr68rus>
+    6613967 - msm8996-common: init: missing namespaces (3 дня назад) <andr68rus>
 
  ======================
   ChangeLog 10-09-2018
@@ -108,148 +81,54 @@
  ======================
  * android
 
-    c62b41f - manifest: add OmniRecord (4 дня назад) <maxwen>
-    46db936 - manifest: use forked libhardware_legacy (4 дня назад) <andr68rus>
+    c62b41f - manifest: add OmniRecord (5 дней назад) <maxwen>
+    46db936 - manifest: use forked libhardware_legacy (5 дней назад) <andr68rus>
 
  * build/make
 
-    523f8c5 - [1/3] build: Move vendor init flag to soong (3 дня назад) <Stefan Berger>
+    523f8c5 - [1/3] build: Move vendor init flag to soong (4 дня назад) <Stefan Berger>
 
  * build/soong
 
-    86632f5 - [2/3] soong: Move vendor init flag to soong (3 дня назад) <Stefan Berger>
+    86632f5 - [2/3] soong: Move vendor init flag to soong (4 дня назад) <Stefan Berger>
 
  * device/leeco/msm8996-common
 
-    d5e3ac7 - msm8996: update vulkan and media blobs (3 дня назад) <ThEMarD>
-    32dd4f1 - msm8996: switch to pure marlin thermal-engine config (3 дня назад) <ThEMarD>
-    860c1ba - msm8996: update audio volume policies from frameworks (3 дня назад) <ThEMarD>
-    5f325ae - msm8996: Kang audio from Gemini (3 дня назад) <ThEMarD>
-    fde560f - msm8996: sed qti_libpermissions.xml during extract instead of pinning (3 дня назад) <Michael Bestas>
-    4894ddb - msm8996: Build libmm-omxcore (3 дня назад) <Michael Bestas>
-    e922fdc - msm8996: Add unpinning support to update-sha1sums.py script (3 дня назад) <Bruno Martins>
-    8d8ad3f - msm8996: Handle moved blobs in update-sha1sums.py script (3 дня назад) <LuK1337>
-    dad550c - msm8996: Add script to update sha1sums of kanged blobs (3 дня назад) <LuK1337>
-    a46cbfa - msm8996: reorganize vendor_prop.mk alphabetically (3 дня назад) <ThEMarD>
-    d625931 - msm8996: kang DRM, QTEE, TUI and WideVine from OnePlus 5/t (3 дня назад) <ThEMarD>
-    d75c727 - msm8996: remove commonized widevine firmware files (3 дня назад) <ThEMarD>
-    0858b6e - msm8996: fix ADSP modules SHA-1 sums & update others (3 дня назад) <ThEMarD>
-    0f9f52d - msm8996: init: update with CAF (3 дня назад) <ThEMarD>
-    4521270 - msm8996: init: update USB from CAF (4 дня назад) <ThEMarD>
-    382b0b1 - msm8996-common: add cryptfs_hw for omni (4 дня назад) <andr68rus>
-    49fb11d - msm8996-common: import policy_hal for omni (4 дня назад) <andr68rus>
-    c9134d8 - msm8996-common: init: fix compilation on omni (4 дня назад) <andr68rus>
-    311aa38 - msm8996-common : Import QCOM power HAL * Plain QCOM power HAL based on tag LA.UM.7.5.r1-02200-8x96.0 (4 дня назад) <shivatejapeddi>
-    ee19a77 - msm8998-common: manifest omnifi: remove lineageos livedisplay, replace los power to aosp (4 дня назад) <andr68rus>
-    62d0a23 - msm8998-common: declare some qcom flags for omni (4 дня назад) <andr68rus>
-    f63e113 - msm8998-common: include omni sepolicy (4 дня назад) <andr68rus>
-    943452e - msm8998-common: BoardConfig: omni-fy: rm ril=caf (4 дня назад) <andr68rus>
-    a29a574 - msm8998-common: BoardConfig: declare caf omni hals (4 дня назад) <andr68rus>
-    dc42c5e - [temp] selinux: ignore neverallow (4 дня назад) <andr68rus>
-    1218829 - msm8998-common: rm lineage.dependencies (4 дня назад) <andr68rus>
-    0f0a94f - msm8998-common: omni-fy: remove libhidl (4 дня назад) <andr68rus>
-    3810d4b - msm8998-common: fix build camera hal on omni (4 дня назад) <andr68rus>
+    d5e3ac7 - msm8996: update vulkan and media blobs (4 дня назад) <ThEMarD>
+    32dd4f1 - msm8996: switch to pure marlin thermal-engine config (4 дня назад) <ThEMarD>
+    860c1ba - msm8996: update audio volume policies from frameworks (4 дня назад) <ThEMarD>
+    5f325ae - msm8996: Kang audio from Gemini (4 дня назад) <ThEMarD>
+    fde560f - msm8996: sed qti_libpermissions.xml during extract instead of pinning (4 дня назад) <Michael Bestas>
+    4894ddb - msm8996: Build libmm-omxcore (4 дня назад) <Michael Bestas>
+    e922fdc - msm8996: Add unpinning support to update-sha1sums.py script (4 дня назад) <Bruno Martins>
+    8d8ad3f - msm8996: Handle moved blobs in update-sha1sums.py script (4 дня назад) <LuK1337>
+    dad550c - msm8996: Add script to update sha1sums of kanged blobs (4 дня назад) <LuK1337>
+    a46cbfa - msm8996: reorganize vendor_prop.mk alphabetically (4 дня назад) <ThEMarD>
+    d625931 - msm8996: kang DRM, QTEE, TUI and WideVine from OnePlus 5/t (4 дня назад) <ThEMarD>
+    d75c727 - msm8996: remove commonized widevine firmware files (4 дня назад) <ThEMarD>
+    0858b6e - msm8996: fix ADSP modules SHA-1 sums & update others (4 дня назад) <ThEMarD>
+    0f9f52d - msm8996: init: update with CAF (4 дня назад) <ThEMarD>
+    4521270 - msm8996: init: update USB from CAF (5 дней назад) <ThEMarD>
+    382b0b1 - msm8996-common: add cryptfs_hw for omni (5 дней назад) <andr68rus>
+    49fb11d - msm8996-common: import policy_hal for omni (5 дней назад) <andr68rus>
+    c9134d8 - msm8996-common: init: fix compilation on omni (5 дней назад) <andr68rus>
+    311aa38 - msm8996-common : Import QCOM power HAL * Plain QCOM power HAL based on tag LA.UM.7.5.r1-02200-8x96.0 (5 дней назад) <shivatejapeddi>
+    ee19a77 - msm8998-common: manifest omnifi: remove lineageos livedisplay, replace los power to aosp (5 дней назад) <andr68rus>
+    62d0a23 - msm8998-common: declare some qcom flags for omni (5 дней назад) <andr68rus>
+    f63e113 - msm8998-common: include omni sepolicy (5 дней назад) <andr68rus>
+    943452e - msm8998-common: BoardConfig: omni-fy: rm ril=caf (5 дней назад) <andr68rus>
+    a29a574 - msm8998-common: BoardConfig: declare caf omni hals (5 дней назад) <andr68rus>
+    dc42c5e - [temp] selinux: ignore neverallow (5 дней назад) <andr68rus>
+    1218829 - msm8998-common: rm lineage.dependencies (5 дней назад) <andr68rus>
+    0f0a94f - msm8998-common: omni-fy: remove libhidl (5 дней назад) <andr68rus>
+    3810d4b - msm8998-common: fix build camera hal on omni (5 дней назад) <andr68rus>
 
  * device/leeco/x2
 
-    338f43c - x2: omni-fy and fix derps (3 дня назад) <andr68rus>
-    37ee0b4 - [temp] x2: selinux permissive now (4 дня назад) <andr68rus>
-    e869bd3 - omni-fy (4 дня назад) <andr68rus>
-    fa5d0a9 - x2: init: add focus fix parameter (4 дня назад) <sdv22>
-    d56a6df - x2: Move init.tfa.sh to /vendor (4 дня назад) <LuK1337>
-    17b161c - x2: Implement on boot TFA98xx calibration (4 дня назад) <LuK1337>
-
- * frameworks/base
-
-    7248803 - base: SystemUI: add OmniRecord based qs tile (4 дня назад) <maxwen>
-    51be565 - base: SystemUI: prevent that double tap to sleep triggers panel expand (4 дня назад) <maxwen>
-    72a63bc - [1/2] base: Double tap to sleep on lockscreen (4 дня назад) <ezio84>
-    d011070 - [1/3] base: double tap to sleep on statusbar (4 дня назад) <maxwen>
-
- * hardware/qcom/bt
-
-    6702144 - caf-msm8952: Fix libbt-vendor build errors (3 дня назад) <Stefan Berger>
-
- * hardware/qcom/display-caf-msm8996
-
-    7785695 - Revert "sdm: Refactor GPU compositon handling." (3 дня назад) <andr68rus>
-    6762bbe - Revert "display: Define soong namespace" (3 дня назад) <andr68rus>
-
- * kernel/leeco/msm8996
-
-    ffa9c8f - Fix qseecom-kernel-headers build (4 дня назад) <Alberto97>
-    40d7488 - Android.bp: Initial header export bp for Android (qseecom only) (4 дня назад) <David Ng>
-    ba497e9 - msm8996: remove TOUCHKEY_ATMEGA48A_LETV (4 дня назад) <ThEMarD>
-    646a886 - x2: enable CONFIG_QPNP_MHL in defconfig (4 дня назад) <ThEMarD>
-
- * packages/apps/OmniRecord
-
-    3901410 - OmniRecord: set app icon to omni logo (4 дня назад) <maxwen>
-    7dc6e5d - OmniRecord: clean images (4 дня назад) <maxwen>
-    5757182 - OmniRecord: add settings and broadcaset based invocation (4 дня назад) <maxwen>
-
- * system/core
-
-    73ec138 - [3/3] core: Move vendor init flag to soong (3 дня назад) <Stefan Berger>
-
- * vendor/leeco
-
-    d6ab585 - msm8996: blobs: add port-bridge (4 дня назад) <ThEMarD>
-
- * vendor/omni
-
-    bd9c470 - omni: add OmniRecord to build (4 дня назад) <maxwen>
-    1630ca7 - [2/2] omni: sepolicy: update_engine neverallows (4 дня назад) <maxwen>
-
- ======================
-  ChangeLog 10-07-2018
- ======================
-
- * device/leeco/msm8996-common
-
-    2d0d32b - msm8996: prop: set VT camera to use HAL3 (5 дней назад) <ThEMarD>
-    15c08a9 - msm8996: bring back msm_irqbalance (5 дней назад) <ThEMarD>
-    e76fe58 - msm8996-common: Advertise Vulkan 1.1 system feature (5 дней назад) <Jesse Hall>
-    b680b51 - msm8996: update vulkan and media blobs (5 дней назад) <ThEMarD>
-    04ca0eb - msm8996: switch to pure marlin thermal-engine config (5 дней назад) <ThEMarD>
-    d98028a - msm8996: update audio volume policies from frameworks (5 дней назад) <ThEMarD>
-    0a10a5a - msm8996: Kang audio from Gemini (5 дней назад) <ThEMarD>
-    47a9115 - msm8996: sed qti_libpermissions.xml during extract instead of pinning (5 дней назад) <Michael Bestas>
-    5680a32 - msm8996: Build libmm-omxcore (5 дней назад) <Michael Bestas>
-    e21c44f - msm8996: Add unpinning support to update-sha1sums.py script (5 дней назад) <Bruno Martins>
-    bb4551e - msm8996: Handle moved blobs in update-sha1sums.py script (5 дней назад) <LuK1337>
-    8a8994b - msm8996: Add script to update sha1sums of kanged blobs (5 дней назад) <LuK1337>
-    2d3f4c0 - msm8996: reorganize vendor_prop.mk alphabetically (5 дней назад) <ThEMarD>
-    34c1bd2 - msm8996: kang DRM, QTEE, TUI and WideVine from OnePlus 5/t (5 дней назад) <ThEMarD>
-    dcc3471 - msm8996: remove commonized widevine firmware files (5 дней назад) <ThEMarD>
-    bf3294f - msm8996: fix ADSP modules SHA-1 sums & update others (5 дней назад) <ThEMarD>
-    a2dde98 - msm8996: init: update with CAF (5 дней назад) <ThEMarD>
-    bb2a9dc - msm8996: init: update USB from CAF (5 дней назад) <ThEMarD>
-
- * external/vim
-
-    7dd676e - external: vim: Create vi symlink (5 дней назад) <Humberto Borba>
-
- * frameworks/base
-
-    7d2383a - base: SystemUI: add tuner to hide qs security footer (5 дней назад) <maxwen>
-    5502291 - base: SettingsProvider: cleanup leftover logspill (5 дней назад) <maxwen>
-
- * packages/apps/OmniRecord
-
-    c5fb7af - OmniRecord: pass mode as intent extra (5 дней назад) <maxwen>
-    5de03af - OmniRecord: genesis (5 дней назад) <maxwen>
-
- * packages/apps/Settings
-
-    44e2a32 - Settings: Add AGPS setting menu. (5 дней назад) <juwei>
-
- * packages/apps/SettingsIntelligence
-
-    d301360 - SettingsIntelligence: use OMNI_FINGERPRINT for search index (4 дня назад) <maxwen>
-
- * vendor/omni
-
-    406aca3 - Merge "vendor: omni: Update package list" into android-9.0 (5 дней назад) <Humberto Borba>
-    48bd15a - [1/3] omni: add syslog_read perms for matlog (5 дней назад) <maxwen>
+    338f43c - x2: omni-fy and fix derps (4 дня назад) <andr68rus>
+    37ee0b4 - [temp] x2: selinux permissive now (5 дней назад) <andr68rus>
+    e869bd3 - omni-fy (5 дней назад) <andr68rus>
+    fa5d0a9 - x2: init: add focus fix parameter (5 дней назад) <sdv22>
+    d56a6df - x2: Move init.tfa.sh to /vendor (5 дней назад) <LuK1337>
+    17b161c - x2: Implement on boot TFA98xx calibration (5 дней назад) <LuK1337>
 
